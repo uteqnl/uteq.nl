@@ -161,11 +161,15 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content pb-4">
                             <div class="modal-body text-dark small">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
                                 <div class="h1 mt-3 mb-5">Are we compatible?</div>
 
                                 <div class="container text-left">
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col-md">
                                             <div class="h5 text-success">Our specialism</div>
                                             <ul class="text-success list-group list-group list-group-flush border-left pl-2">
                                                 <li class="list-group-item p-0 border-0">
@@ -189,7 +193,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-md">
                                             <div class="h5">Not really our thing</div>
 
                                             <ul class="list-group list-group list-group-flush border-left pl-2">
@@ -225,6 +229,10 @@
                     <div class="modal-dialog modal-lg" role="document" style="max-width: 640px;">
                         <div class="modal-content">
                             <div class="modal-body text-dark small pb-5">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
                                 <div class="h1 mt-3 mb-5">About UteQ</div>
 
                                 <div class="container text-left">
