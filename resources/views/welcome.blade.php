@@ -244,7 +244,7 @@
                             <div class="col-md-4 text-muted small">
                                 UteQ is a twist of the words Human and Technology and as you can image Uteq is easier to write, remember and softer on the eyes than Huteq. The Q is for U.
 
-                                <img src="{{ asset('images/keyboard.png') }}" class="img-responsive mt-5" />
+{{--                                <img src="{{ asset('images/keyboard.png') }}" class="img-responsive mt-5" />--}}
                             </div>
                         </div>
                     </div>
