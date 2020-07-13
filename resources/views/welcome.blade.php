@@ -137,7 +137,7 @@
             }
 
             .modal-lg {
-                max-width: 640px;
+                max-width: 720px;
             }
 
             .small {
