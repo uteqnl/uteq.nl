@@ -12,7 +12,7 @@
 
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
         <!-- Styles -->
         <style>
@@ -143,10 +143,23 @@
             .small {
                 font-size: 12px;
             }
+
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                background-color: rgba(241,241,241,0.8);
+            }
+
+            .footer a {
+                color: #343a40;
+            }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <main class="flex-center position-ref full-height">
 
             <div class="content">
                 <div class="title">
@@ -164,7 +177,7 @@
                     <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#compatibleModal">
                         Ready for your next project?
                     </button>
-                    <button type="button" class="btn btn-link text-white ml-2 link px-1" data-toggle="modal" data-target="#aboutModal">
+                    <button type="button" class="btn btn-link text-white ml-2 mt-3 mt-md-0 link px-1" data-toggle="modal" data-target="#aboutModal">
                         About UteQ
                     </button>
                 </div>
@@ -201,17 +214,20 @@
                                 </ul>
                             </div>
                             <div class="col-md mt-4 mt-md-0">
-                                <div class="h5">Not really our thing</div>
+                                <div class="h5">Manifest</div>
 
                                 <ul class="list-group list-group list-group-flush border-left pl-2">
                                     <li class="list-group-item p-0 border-0">
-                                        Tight deadlines
+                                        Quality before deadlines
                                     </li>
                                     <li class="list-group-item p-0 border-0">
-                                        Visual design
+                                        Trail-and-error over documentation
                                     </li>
                                     <li class="list-group-item p-0 border-0">
-                                        IT (fixing your printer)
+                                        Clean and simple over complex
+                                    </li>
+                                    <li class="list-group-item p-0 border-0">
+                                        Macro before micro
                                     </li>
                                 </ul>
                             </div>
@@ -245,6 +261,23 @@
                                 UteQ is a twist of the words Human and Technology and as you can image Uteq is easier to write, remember and softer on the eyes than Huteq. The Q is for U.
 
 {{--                                <img src="{{ asset('images/keyboard.png') }}" class="img-responsive mt-5" />--}}
+                                <div class="text-dark mt-4">
+                                    <h5 class="text-muted">Contact</h5>
+                                    <div class="row">
+                                        <div class="col-2 text-muted">VAT</div>
+                                        <div class="col">NL003362950B45</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 text-muted">IBAN</div>
+                                        <div class="col">NL26 KNAB 0401 7906 06</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 text-muted">COC</div>
+                                        <div class="col">53331540</div>
+                                    </div>
+
+                                    <div class="mt-2"><a href="https://github.com/uteqnl" class="text-dark" target="_blank">Github</a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -265,12 +298,12 @@
                     </h5>
                     <div class="container text-left">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md">
                                 <p>Q of course is just a silly joke, but as with every joke there is some truth in it.</p>
                                 <p><b>Enabling</b> is the magic word.</p>
                                 <p>Creating wonderful gadgets that will enable you to complete your mission or rather project.</p>
 
-                                <div class="d-flex">
+                                <div class="d-flex mb-3 mb-md-0">
                                     <div class="btn text-dark px-0 mt-3 mr-auto">Ready to be enabled?</div>
                                     <a class="btn btn-outline-warning mt-3"
                                        href="mailto:info@uteq.nl?subject=Enable%20me%21&body=Tell%20us%20as%20much%20as%20you%20can%20about%0A-%20your%20online%20project%0A-%20your%20planning%0A-%20your%20budget%0A-%20%E2%80%A6%0A%0AJust%20about%20anything%20that%20gives%20a%20good%20start%21"
@@ -279,7 +312,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col mt-1">
+                            <div class="col-md mt-1">
                                 <img src="{{ asset('images/q.jpeg') }}" class="img-responsive" />
                             </div>
                         </div>
@@ -299,9 +332,18 @@
                     </blockquote>
                 </x-modal>
 
-{{--                <div>&copy; {{ date('Y') }} | Dont forget about <a href="https://github.com/uteqnl" target="_blank">Github</a></div>--}}
+                <div class="my-5 small">
+
+                </div>
             </div>
-        </div>
+        </main>
+
+{{--        <footer class="footer">--}}
+{{--            <div class="container small text-dark text-center">--}}
+{{--                --}}
+{{--            </div>--}}
+{{--        </footer>--}}
+
     </body>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

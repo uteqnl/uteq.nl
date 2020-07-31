@@ -102,6 +102,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/htmlmin/htmlmin" />
       <path value="$PROJECT_DIR$/vendor/mrclay/minify" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
   <component name="PhpUnit">
