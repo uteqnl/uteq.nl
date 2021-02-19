@@ -276,7 +276,7 @@
                                         <div class="col">53331540</div>
                                     </div>
 
-                                    <div class="mt-2"><a href="https://github.com/uteqnl" class="text-dark" target="_blank">Github</a></div>
+                                    <div class="mt-2"><a href="https://github.com/uteq" class="text-dark" target="_blank">Github</a></div>
                                 </div>
                             </div>
                         </div>
